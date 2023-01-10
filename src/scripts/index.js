@@ -2,7 +2,7 @@ import store from './store'
 import { addTask, completeATask } from './action'
 
 const unSubscribe = store.subscribe(() => {
-  console.log('Store Updated: ', store.getState())
+  console.log('Store Got Updated: ', store.getState())
 })
 
 store.dispatch(addTask('Task 1'))
