@@ -1,0 +1,4 @@
+- Reducer is a pure function which means how to do
+- Deprecated means this feature is supported but not recommended
+- Root reducer is a combination of all reducers
+- store.subscribe runs when something changes in the redux store

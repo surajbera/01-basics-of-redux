@@ -1,0 +1,22 @@
+{
+  "name": "01-basics-of-redux",
+  "version": "0.0.1",
+  "description": "Learning Redux from the ground up",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "keywords": [
+    "redux",
+    "web-dev",
+    "front-end"
+  ],
+  "author": "Suraj Bera",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "redux": "^4.2.0"
+  }
+}
