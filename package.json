@@ -17,6 +17,7 @@
     "parcel": "^2.8.2"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
     "redux": "^4.2.0"
   }
 }
