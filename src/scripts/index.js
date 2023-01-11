@@ -1,5 +1,5 @@
-import store from './store'
-import { addTask, completeATask } from './action'
+import store from './store/configureStore'
+import { addTask, removeTask, completeATask } from './store/tasks'
 
 const unSubscribe = store.subscribe(() => {
   console.log('Store Got Updated: ', store.getState())
@@ -7,5 +7,6 @@ const unSubscribe = store.subscribe(() => {
 
 store.dispatch(addTask('Task 1'))
 store.dispatch(addTask('Task 2'))
+store.dispatch(removeTask(1))
+store.dispatch(completeATask(2))
 
-store.dispatch(completeATask(1))
