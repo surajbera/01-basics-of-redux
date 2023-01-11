@@ -15,3 +15,5 @@
 - Reducers can be created using redux toolkit using createReducer
 
 - Code inside createReducer looks mutable, but under the hood, immer library is responsible for transforming that mutable code into immutable format
+
+- Middleware is a function which run between the action and reducer
